@@ -33,13 +33,22 @@ const projects: Project[] = [
     githubUrl: "#",
   },
   {
-    title: "DevOps Pipeline",
-    description:
-      "Automated CI/CD pipeline with containerized deployments, automated testing, and zero-downtime releases using modern DevOps practices.",
-    impact: "Reduced deployment time from hours to minutes",
-    techStack: ["Docker", "Kubernetes", "GitHub Actions", "Nginx"],
-    githubUrl: "#",
-  },
+  title: "AI-Powered Solar Rooftop Potential Analyzer for TPDDL",
+  description:
+    "An intelligent geospatial analytics platform built for Tata Power Delhi Distribution Limited (TPDDL) that leverages GeoJSON building footprint data and advanced solar irradiance modeling to assess rooftop solar installation viability across the Rohini district of Delhi. The system computes a multi-factor Solar Suitability Score (0–100) for every building by analyzing roof geometry via Turf.js spatial computations, usable roof area estimation, panel efficiency modeling, and solar capacity projections. Features an interactive Leaflet-powered map with color-coded building overlays (green/yellow/red) for instant visual assessment, click-to-inspect popups with detailed per-building analytics, a real-time aggregated dashboard summarizing total capacity, annual energy yield, and CO₂ offset across the entire district, and a comprehensive financial model estimating installation costs, annual savings, and payback periods.",
+  impact:
+    "Enables data-driven decision-making for urban solar adoption at scale — analyzing hundreds of buildings simultaneously, projecting aggregate energy generation capacity in kW, estimating annual CO₂ reduction in tons, and providing per-building ROI analysis with payback period calculations to accelerate India's clean energy transition.",
+  techStack: [
+    "React",
+    "Leaflet",
+    "React-Leaflet",
+    "Turf.js",
+    "GeoJSON",
+    "OpenStreetMap",
+    "Vite"
+  ],
+  featured: true
+}
 ];
 
 function ProjectCard({

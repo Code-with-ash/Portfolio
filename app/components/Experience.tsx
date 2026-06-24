@@ -20,8 +20,7 @@ const experiences: ExperienceEntry[] = [
       "Building production-grade web applications with modern tech stack, focusing on scalable architecture and clean code practices.",
     highlights: [
       "Architected and shipped multiple full-stack applications using Next.js and PostgreSQL",
-      "Implemented real-time features using WebSockets and Redis pub/sub",
-      "Set up CI/CD pipelines with Docker and GitHub Actions for automated deployments",
+      "Implemented real-time features using WebSockets and Redis"
     ],
   },
   {
@@ -37,11 +36,11 @@ const experiences: ExperienceEntry[] = [
     ],
   },
   {
-    role: "Computer Science Student",
-    company: "University",
-    period: "2022 — Present",
+    role: "Electronics and Communication Engineering Student",
+    company: "",
+    period: "2024 — Present",
     description:
-      "Pursuing a degree in Computer Science with focus on algorithms, system design, and software engineering.",
+      "Pursuing a degree in Electronics and Communication Engineering with focus on algorithms, system design, and software engineering.",
     highlights: [
       "Strong foundation in Data Structures & Algorithms using C++",
       "Coursework in Database Systems, Operating Systems, and Computer Networks",
