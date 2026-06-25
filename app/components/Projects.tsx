@@ -20,7 +20,7 @@ const projects: Project[] = [
       "A full-stack expense tracker that helps users monitor spending, set budgets, and visualize financial data with interactive charts and real-time updates.",
     impact: "Built with clean architecture and real-time sync capabilities",
     techStack: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Tailwind CSS"],
-    liveUrl: "#",
+    liveUrl: "https://fin-track-gray-two.vercel.app/",
     githubUrl: "#",
     featured: true,
   },
